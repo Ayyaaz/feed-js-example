@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Passle example feed</title>
+	
+	<!-- Passle source file -->
+	<script id="passle-script-container" type="text/javascript" src="http://www.passle.net/api/js/passle-feed-1.0.0.min.js" ></script>
+</head>
+<body>
+	<!-- Passle container -->
+	<div id="passle-container" ></div>
+	
+	<!-- Setup the passle -->
+	<script type="text/javascript" >
+		Passle.init({
+			shortcode: "2cxn", // Required [Update with shortcode]
+			height: "2500px", // Required
+			page: 1,
+			noOfPosts: 15,
+			width: "100%",
+			containerId: "passle-container"
+		});
+	</script>
+</body>
+</html>
