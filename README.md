@@ -7,8 +7,7 @@ browser.
 
 Please note: 
 
-  1. You'll need to replace the shortcode in the JavaScript `init` method with the shortcode of the Passle you are trying to display
-> You can get this from the settings page of your Passle.
+  1. You'll need to replace the shortcode in the JavaScript `init` method with the shortcode of the Passle you are trying to display. You can get this from the settings page of your Passle.
   2. The container `div` for the feed must have a class of `passle-container`
   3. The `passle-feed-*.min.js` script link needs `id="passle-script-container"` on the script tag
 
